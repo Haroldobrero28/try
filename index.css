@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wing-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 294.51px;
+}
+
+.wing-container .right-wing {
+    background-color: green;
+    width: 365px;
+    height: 134px;
+    transform: rotate(25deg);
+    position: absolute;
+    top: -65.26px;
+    left: 60.64px;
+}
+
+.wing-container .left-wing {
+    position: absolute;
+    background-color: blue;
+    width: 365px;
+    height: 134px;
+    transform: rotate(-25deg);
+    bottom: 100px;
+    right: 100px;
+}
+
+
